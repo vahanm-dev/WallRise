@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C8210292E252788000CBC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8210262E252788000CBC6B /* ContentView.swift */; };
+		9C82102A2E252788000CBC6B /* WallRiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8210272E252788000CBC6B /* WallRiseApp.swift */; };
+		9C82102B2E252788000CBC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8210232E252788000CBC6B /* Preview Assets.xcassets */; };
+		9C82102C2E252788000CBC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8210252E252788000CBC6B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		9C8210232E252788000CBC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C8210252E252788000CBC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8210262E252788000CBC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C8210272E252788000CBC6B /* WallRiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallRiseApp.swift; sourceTree = "<group>"; };
 		9C9733462E251EC40081053B /* WallRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9C9733482E251EC40081053B /* WallRise */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WallRise;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C9733432E251EC40081053B /* Frameworks */ = {
@@ -29,10 +32,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C8210242E252788000CBC6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210232E252788000CBC6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C8210282E252788000CBC6B /* WallRise */ = {
+			isa = PBXGroup;
+			children = (
+				9C82102D2E25278C000CBC6B /* App */,
+				9C8210312E2527D0000CBC6B /* Core */,
+			);
+			path = WallRise;
+			sourceTree = "<group>";
+		};
+		9C82102D2E25278C000CBC6B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210322E25285C000CBC6B /* Launch */,
+				9C82102F2E2527A2000CBC6B /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9C82102F2E2527A2000CBC6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210302E2527AF000CBC6B /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C8210302E2527AF000CBC6B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210252E252788000CBC6B /* Assets.xcassets */,
+				9C8210242E252788000CBC6B /* Preview Content */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9C8210312E2527D0000CBC6B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210262E252788000CBC6B /* ContentView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9C8210322E25285C000CBC6B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				9C8210272E252788000CBC6B /* WallRiseApp.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
 		9C97333D2E251EC40081053B = {
 			isa = PBXGroup;
 			children = (
-				9C9733482E251EC40081053B /* WallRise */,
+				9C8210282E252788000CBC6B /* WallRise */,
 				9C9733472E251EC40081053B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +121,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9C9733482E251EC40081053B /* WallRise */,
 			);
 			name = WallRise;
 			packageProductDependencies = (
@@ -109,6 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C82102B2E252788000CBC6B /* Preview Assets.xcassets in Resources */,
+				9C82102C2E252788000CBC6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8210292E252788000CBC6B /* ContentView.swift in Sources */,
+				9C82102A2E252788000CBC6B /* WallRiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
